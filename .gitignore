@@ -1,7 +1,9 @@
 # Ignore bin directory
+/Dev/Design/*/*/bin
 /Dev/Design/*/bin
 
 # Ignore obj directory
+/Dev/Design/*/*/obj
 /Dev/Design/*/obj
 
 /Dev/Design/.vs

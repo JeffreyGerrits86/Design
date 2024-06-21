@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design", "Design\Design.csproj", "{91DFD7EA-364D-4042-A384-AE4F42F0A817}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Design", "Design\Design.csproj", "{91DFD7EA-364D-4042-A384-AE4F42F0A817}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational", "Creational", "{3563CFD1-0754-444F-85C9-48DD4C8A42CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", "{DD0DE677-1275-497D-AFDA-4C4939A505A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral", "Behavioral", "{D146504A-DACC-432F-A7E4-E50CFF0CFD33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory", "Factory\Factory.csproj", "{AABF1D1E-857C-43F4-8B47-DB12C0F284B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +23,16 @@ Global
 		{91DFD7EA-364D-4042-A384-AE4F42F0A817}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91DFD7EA-364D-4042-A384-AE4F42F0A817}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91DFD7EA-364D-4042-A384-AE4F42F0A817}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AABF1D1E-857C-43F4-8B47-DB12C0F284B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AABF1D1E-857C-43F4-8B47-DB12C0F284B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AABF1D1E-857C-43F4-8B47-DB12C0F284B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AABF1D1E-857C-43F4-8B47-DB12C0F284B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AABF1D1E-857C-43F4-8B47-DB12C0F284B9} = {3563CFD1-0754-444F-85C9-48DD4C8A42CF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {48ADBB55-6EFA-4A37-A6ED-9C95768BBF51}
