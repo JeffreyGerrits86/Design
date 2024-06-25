@@ -11,9 +11,9 @@ Brick               BCTB        MDTB        CDAB
  Just as with the original factory, we need to build a somewhat complex system to ensure that we can update our products without having to update the clients.
 
  Steps to implement:
- - Build product interface and subclasses that inherit from it. So BCTT : IBCT in this example. 
- - Build abstract factory an interface with a list of creation methods for all products that are part of the product family. So IDeviceFactory that can create BCT's, MDT's and CDA's. 
- - Build Factories that inherit from the IDeviceFactory. So TaximeterDeviceFactory that can create BCTT, MDTT and CDAT.
+ - Build product interface and subclasses that inherit from it. So BCTT : IDevice in this example. 
+ - Build abstract factory: an interface which sets the blueprint for creating a device. The abstract factory class then creates a factory based on an input. 
+ - Build Factories that inherit from the IDeviceFactory. So TaximeterFactory that can create BCTT, MDTT and CDAT.
  - Test functionality with inputs
  */
 
