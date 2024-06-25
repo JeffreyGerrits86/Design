@@ -4,7 +4,7 @@
     {
         public void EstablishConnection()
         {
-            Console.WriteLine("MDT connection established.\n");
+            Console.WriteLine("MDT connection established.");
         }
     }
 }

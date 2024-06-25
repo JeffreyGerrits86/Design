@@ -4,7 +4,7 @@
     {
         public void EstablishConnection()
         {
-            Console.WriteLine("BCT connection established\n");
+            Console.WriteLine("BCT connection established");
         }
     }
 }

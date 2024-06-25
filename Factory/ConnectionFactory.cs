@@ -4,7 +4,7 @@ namespace Factory
 {
     public class ConnectionFactory
     {
-        public IConnection GetConnection(string connectionName)
+        public IConnection CreateConnection(string connectionName)
         {
             switch (connectionName.ToLower())
             {

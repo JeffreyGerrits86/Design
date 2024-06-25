@@ -35,7 +35,7 @@ namespace Factory
                 }
                 else
                 {
-                    IConnection connection = connectionFactory.GetConnection(input);
+                    IConnection connection = connectionFactory.CreateConnection(input);
                     if (connection != null)
                     {
                         connection.EstablishConnection();

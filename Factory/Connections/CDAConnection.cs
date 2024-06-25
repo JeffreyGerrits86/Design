@@ -4,7 +4,7 @@
     {
         public void EstablishConnection()
         {
-            Console.WriteLine("CDA connection established\n");
+            Console.WriteLine("CDA connection established");
         }
     }
 }
