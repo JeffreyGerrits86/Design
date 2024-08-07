@@ -22,6 +22,11 @@ namespace Builder.Builders
             this._centrale.Modules = order; 
         }
 
+        public string[] GetModules()
+        {
+            return this._centrale.Modules;
+        }
+
         public void SetNumberOfUsers(int numberOfUsers)
         {
             this._centrale.NumberOfUsers = numberOfUsers;
